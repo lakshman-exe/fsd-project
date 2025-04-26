@@ -27,5 +27,5 @@ A modern, responsive restaurant website template packed with smooth animations, 
 ### 📁 Clone the repo
 
 ```bash
-git clone https://github.com/lakshmanbhukya/restaurant-website.git
-cd restaurant-website
+git clone https://github.com/lakshman-exe/fsd-project.git
+cd fsd-project
