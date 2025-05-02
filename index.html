@@ -333,7 +333,7 @@
     <script src="static/js/script.js"></script>
     <script>
         (function () {
-            emailjs.init("OA5UXy-A0j8yeP4G6"); // Replace with your actual public key
+            emailjs.init("PUBLIC_KEY"); // Replace with your actual public key
         })();
 
         document.getElementById("reservationForm").addEventListener("submit", function (e) {
@@ -341,7 +341,7 @@
 
             const form = this;
 
-            emailjs.sendForm("service_agn935q", "template_zd94np4", form)
+            emailjs.sendForm("SERVICE_KEY", "TEMPLATE_KEY", form)
                 .then(() => {
                     alert("Thank you for your reservation. Our team will reach out to you soon.");
                     form.reset();
